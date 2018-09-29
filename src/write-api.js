@@ -1,8 +1,8 @@
 const assert = require('assert')
-const ecc = require('eosjs-ecc')
+const ecc = require('rn-eosjs-ecc')
 const Fcbuffer = require('fcbuffer')
 const createHash = require('create-hash')
-const {processArgs} = require('eosjs-api')
+const {processArgs} = require('rn-eosjs-api')
 const Structs = require('./structs')
 
 module.exports = writeApiGen

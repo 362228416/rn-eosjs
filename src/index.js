@@ -1,6 +1,6 @@
-const ecc = require('eosjs-ecc')
+const ecc = require('rn-eosjs-ecc')
 const Fcbuffer = require('fcbuffer')
-const EosApi = require('eosjs-api')
+const EosApi = require('rn-eosjs-api')
 const assert = require('assert')
 
 const Structs = require('./structs')
